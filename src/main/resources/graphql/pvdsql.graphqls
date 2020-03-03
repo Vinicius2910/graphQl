@@ -1,0 +1,14 @@
+type Pvd {
+	id: ID!,
+	tradingName: String!,
+	ownerName: String!,
+	document: String!
+}
+
+type Query {
+	pvd(id: ID):Pvd
+}
+
+type Mutation {
+	createPvd(tradingName: String!, ownerName: String!, document: String!):Pvd
+}
