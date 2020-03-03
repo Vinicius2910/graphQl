@@ -1,5 +1,5 @@
 # Zé Challenge solution
-A application with GraphQL and Spring Boot
+An application with GraphQL and Spring Boot
 
 Instructions to run the project:
 
